@@ -30,7 +30,7 @@ final class RequestObjectResolver implements ArgumentValueResolverInterface
 
         try {
             $requestObject = $dto::createFromRequest($request);
-        } catch (\Throwable) {
+        } catch (\Throwable $e) {
             throw new RequestParsingException();
         }
 
