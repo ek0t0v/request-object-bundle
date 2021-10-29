@@ -1,0 +1,25 @@
+{
+    "name": "orlan/request-object",
+    "description": "...",
+    "type": "symfony-bundle",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Kotov",
+            "email": "ek0t0v@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Orlan\\RequestObject\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^5.0",
+        "symfony/validator": "^5.0"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "^5.0"
+    }
+}
