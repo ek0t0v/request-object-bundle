@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Orlan\RequestObject;
 
-use Ekotov\RequestObject\DependencyInjection\RequestObjectExtension;
+use Orlan\RequestObject\DependencyInjection\RequestObjectExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 final class RequestObjectBundle extends Bundle
