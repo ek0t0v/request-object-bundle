@@ -12,7 +12,11 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 final class RequestObjectSubscriber implements EventSubscriberInterface
 {
-    public function __construct(private ValidatorInterface $validator) {}
+    private ValidatorInterface $validator;
+
+    public function __construct(ValidatorInterface $validator) {
+        $this->validator = $validator;
+    }
 
     public static function getSubscribedEvents(): array
     {
