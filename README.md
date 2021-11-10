@@ -81,7 +81,7 @@ final class SomeRequestObject implements RequestObject
         return new \DateTimeImmutable($this->date);
     }
     
-    public  function images(): array
+    public function images(): array
     {
         return $this->images;
     }
