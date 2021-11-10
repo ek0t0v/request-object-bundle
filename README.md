@@ -63,7 +63,7 @@ final class SomeRequestObject implements RequestObject
         return $object;
     }
     
-    public  function foo(): int
+    public function foo(): int
     {
         return $this->foo;
     }
@@ -71,19 +71,19 @@ final class SomeRequestObject implements RequestObject
     /**
      * In the getter, you can convert the value to the desired object.
      */
-    public  function bar(): BarType
+    public function bar(): BarType
     {
         return new BarType($this->bar);
     }
     
-    public  function date(): \DateTimeImmutable
+    public function date(): \DateTimeImmutable
     {
         return new \DateTimeImmutable($this->date);
     }
     
     public  function images(): array
     {
-        return $this->files;
+        return $this->images;
     }
 }
 ```
