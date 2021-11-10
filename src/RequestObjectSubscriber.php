@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Orlan\RequestObject;
+namespace Ek0t0v\RequestObjectBundle;
 
-use Orlan\RequestObject\Exception\ValidationException;
+use Ek0t0v\RequestObjectBundle\Exception\ValidationException;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\ControllerArgumentsEvent;
 use Symfony\Component\HttpKernel\KernelEvents;

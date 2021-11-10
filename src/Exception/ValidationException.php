@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orlan\RequestObject\Exception;
+namespace Ek0t0v\RequestObjectBundle\Exception;
 
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 

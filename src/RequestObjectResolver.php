@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Orlan\RequestObject;
+namespace Ek0t0v\RequestObjectBundle;
 
-use Orlan\RequestObject\Exception\RequestParsingException;
+use Ek0t0v\RequestObjectBundle\Exception\RequestParsingException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Controller\ArgumentValueResolverInterface;
 use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;

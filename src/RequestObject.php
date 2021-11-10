@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orlan\RequestObject;
+namespace Ek0t0v\RequestObjectBundle;
 
 use Symfony\Component\HttpFoundation\Request;
 

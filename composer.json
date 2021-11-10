@@ -1,6 +1,6 @@
 {
-    "name": "orlan/request-object",
-    "description": "...",
+    "name": "ek0t0v/request-object-bundle",
+    "description": "Convenient validated request objects for symfony",
     "type": "symfony-bundle",
     "version": "1.0.0",
     "license": "MIT",
@@ -12,14 +12,22 @@
     ],
     "autoload": {
         "psr-4": {
-            "Orlan\\RequestObject\\": "src/"
+            "Ek0t0v\\RequestObjectBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ek0t0v\\RequestObjectBundle\\Tests\\": "src/Tests"
         }
     },
     "require": {
         "symfony/http-foundation": "^5.0",
-        "symfony/validator": "^5.0"
+        "symfony/validator": "^5.0",
+        "ext-json": "*"
     },
     "require-dev": {
-        "symfony/framework-bundle": "^5.0"
+        "symfony/framework-bundle": "^5.0",
+        "phpunit/phpunit": "^9.5",
+        "symfony/yaml": "^5.3"
     }
 }

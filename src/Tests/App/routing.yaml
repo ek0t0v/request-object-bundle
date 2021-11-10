@@ -1,0 +1,4 @@
+action:
+    path: /
+    defaults:
+        _controller: 'controller:action'

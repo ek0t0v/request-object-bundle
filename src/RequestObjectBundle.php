@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Orlan\RequestObject;
+namespace Ek0t0v\RequestObjectBundle;
 
-use Orlan\RequestObject\DependencyInjection\RequestObjectExtension;
+use Ek0t0v\RequestObjectBundle\DependencyInjection\RequestObjectExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 final class RequestObjectBundle extends Bundle

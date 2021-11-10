@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Orlan\RequestObject\DependencyInjection;
+namespace Ek0t0v\RequestObjectBundle\DependencyInjection;
 
-use Orlan\RequestObject\RequestObjectResolver;
-use Orlan\RequestObject\RequestObjectSubscriber;
+use Ek0t0v\RequestObjectBundle\RequestObjectResolver;
+use Ek0t0v\RequestObjectBundle\RequestObjectSubscriber;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Extension\Extension;

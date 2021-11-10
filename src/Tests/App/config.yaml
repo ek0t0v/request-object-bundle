@@ -1,0 +1,17 @@
+framework:
+    router:
+        resource: '%kernel.project_dir%/src/Tests/App/routing.yaml'
+        strict_requirements: ~
+
+services:
+    controller:
+        class: Ek0t0v\RequestObjectBundle\Tests\App\Controller
+        public: true
+        tags: ['controller.service_arguments']
+        calls: [[setContainer, ['@service_container']]]
+    Ek0t0v\RequestObjectBundle\Tests\RequestObject\:
+        resource: '../RequestObject'
+        public: true
+    Ek0t0v\RequestObjectBundle\RequestObjectSubscriber:
+        tags:
+            - { name: kernel.event_subscriber, event: kernel.controller_arguments, method: validate }

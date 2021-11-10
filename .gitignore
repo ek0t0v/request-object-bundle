@@ -1,5 +1,8 @@
 .docker
 .idea
+.phpunit.cache
 vendor
+var
 docker-compose.yaml
 composer.lock
+.phpunit.result.cache
